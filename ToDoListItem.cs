@@ -14,7 +14,7 @@ namespace todolist
         public Guid Id { get; set; }
         public string GorevMetni { get; set; }
         public bool Tamamlandi { get; set; }
-        public DateTime EklenmeTarihi { get; set; }
+       
 
         public override string ToString()
         {
